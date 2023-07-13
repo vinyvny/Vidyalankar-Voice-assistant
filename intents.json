@@ -1,0 +1,273 @@
+
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hey","hi","hello"
+            ],
+            "responses":["Hello Sir","How Are You Sir.",
+                "Hello","Hey buddy","whatsup bro"
+            ]
+        },
+        {
+            "tag":"intro",
+            "patterns":["introduced yourself","who are you","yourself","introduced"
+            ],
+            "responses":["I am an VVA (Vidyalankar Voice Assistant) designed to assist you with various tasks and answer your questions. I am trained to understand and respond to natural language commands, allowing me to help you with tasks such as providing information, or even engaging in casual conversation. I'm here to make your life easier. Feel free to ask me anything!"
+            ]            
+        },
+        {
+            "tag":"project",
+            "patterns":["who designed you","this project is developed by","developed"
+            ],
+            "responses":["By vinay and sanket"
+            ]
+        },
+        {
+            "tag":"sanket,vinay",
+            "patterns":["who is sanket","who is vinay","Who is sanket and vinay","sanket","vinay"
+            ],
+            "responses":["Vinay and Sanket are project partners who designed this project called Vidyalankar Voice assistant. They both are pursuing master's in information technology "
+            ]
+        },
+        {
+            "tag":"classroom",
+            "patterns":["X 001","X 002","X 003","X 004","X 005","X 006","X 007","X 008","X009","X 010","X 012","X 013","where is","classroom"
+            ],
+            "responses":["On the ground floor of Xblock"
+            ]  
+        },
+        {
+            "tag":"research lab",
+            "patterns":["research lab","where is researchlab"
+            ],
+            "responses":["Behind the Vendiman, on the ground floor of X block."
+            ]  
+        },
+        {
+            "tag":"office",
+            "patterns":["X 016","where is office ","where is X016","office"
+            ],
+            "responses":["On the ground floor of Xblock opposite of library room number X 016"
+            ]  
+        },
+        {
+            "tag":"teacher",
+            "patterns":["who is beena kapadia","beena","beena kapadia","bina"
+            ],
+            "responses":["Beena kapadia is a highly qualified and dedicated.She is currently pursuing a PhD and holds degrees such as an MCA from MS University Baroda 1994,a PGDCA from MS University Baroda 1990,and a BSc in PCM from MS University Baroda 1988.With 20 years of teaching experience,3 years of industrial experience,and 6 years of administrative and managerial experience,she brings a wealth of knowledge and expertise to the classroom.Additionally,she has published 19 technical papers,authored 6 books,and serves as the coordinator of the MScIT program. Her impressive qualifications,experience,and dedication make her an exceptional educator."
+            ]  
+        },
+        {
+            "tag":"staffroom",
+            "patterns":["where is staffroom ","where is X 011","staffroom"
+            ],
+            "responses":["On the ground floor of Xblock corner room"
+            ]  
+        },
+        {
+            "tag":"reading room",
+            "patterns":["Y003","where is reading room","where is Y003","reading room"
+            ],
+            "responses":["after entering the college walk straight and the second building on the right is Y block. there is a reading room on the ground floor of that building."
+            ]  
+        },
+        {
+            "tag":"X block",
+            "patterns":["X block","where is X block "
+            ],
+            "responses":["after entering the college walk straight and the first building on the right is X block"
+            ]  
+        },
+        {
+            "tag":"Y block",
+            "patterns":["Y block","where is Y block "
+            ],
+            "responses":["after entering the college walk straight and the second building on the right is Y block."
+            ]  
+        },
+        {
+            "tag":"seminar hall",
+            "patterns":["Y001","where is seminar hall","where is Y001","seminar hall"
+            ],
+            "responses":["The seminar hall is located on the ground floor of Y Block, opposite CCD beside the instructional room classroom called Y 001"
+            ]  
+        }, 
+        {
+            "tag":"lotus lab",
+            "patterns":["where is lotus lab","lotus lab"
+            ],
+            "responses":[" after entering the college walk straight and the first building on the right is X block. on the first floor of that building there is a pink flower shaped place on the right side that is lotus lab."
+            ]  
+        },
+        {
+            "tag":"instructional room",
+            "patterns":["Y002","where is instructional room","where is Y002","instructional room"
+            ],
+            "responses":["The instructional room is located on the ground floor of Y block, opposite CCD, beside the seminar hall classroom called Y 002"
+            ]  
+        },
+        {
+            "tag":"auditorium",
+            "patterns":["where is auditorium","auditorium"
+            ],
+            "responses":["Located beside the canteen in the M block "
+            ]  
+        },
+        {
+            "tag":"parking",
+            "patterns":["where is parking","parking area","parking"
+            ],
+            "responses":["after entering the college, there is a parking area on the right side"
+            ]  
+        },
+        {
+            "tag":"canteen",
+            "patterns":["where is canteen","canteen"
+            ],
+            "responses":["after entering the college walk straight and the last building on the left is M block. there is a college canteen. "
+            ]  
+        },
+        {
+            "tag":"college",
+            "patterns":["college name ","what is college name","What's college name"
+            ],
+            "responses":["Vidyalankar School of Information Technology"
+            ]  
+        },
+        {
+            "tag":"location",
+            "patterns":["college location","where is college location","college address"
+            ],
+            "responses":["Vidyalankar College Rd, Wadala East, Deen Bandhu Nagar, Antop Hill, Mumbai, Maharashtra 400037"
+            ] 
+        },
+        {
+            "tag":"courses",
+            "patterns":["college courses","what are college courses offered","courses offered"
+            ],
+            "responses":["BSc in Information Technology | BSc in Data Science | BMS | BAF | BBI | BFM | BMM | MScIT | MCom Banking and Finance | MCom(Management) | MA(Entertainment,Media & Adevertising) | PhD "
+            ]  
+        },
+        {
+            "tag":"facilities",
+            "patterns":["college facilities ","what are college facilities"
+            ],
+            "responses":["Top notch Computer Lab and classroom with AC, Sports facilities, including playgrounds and indoor sports, Cafeteria serving a variety of meals, CCD, Wi-Fi connectivity across the campus, Industry collaborations, Workshops and seminars are conducted and many more cool facilities are provided"
+            ]  
+        },
+        {
+            "tag": "faculty",
+            "patterns": ["Tell me about the faculty", "What is the expertise of the professors?", "Faculty members"
+        ],
+            "responses": ["Our faculty members are highly qualified and experienced experts in their respective fields. They bring a wealth of knowledge and real-world experience to the classroom, ensuring a quality learning experience for our students."
+        ]
+        },
+        {
+            "tag": "campus",
+            "patterns": ["Describe the college campus", "What is the college campus like?", "Campus environment","campus"
+        ],
+            "responses": ["Our college campus is a vibrant and welcoming place. It spans across beautiful green landscapes, offering a serene and conducive environment for learning. With modern infrastructure and student-friendly spaces, our campus provides a comfortable and inspiring atmosphere."
+        ]
+        },
+        {
+            "tag":"about college",
+            "patterns":["about college","information about college"
+            ],
+            "responses":["Vidyalankar School of Information Technology is amongst the most popular colleges of the city offering undergraduate, postgraduate and doctoral programmes in IT, Commerce, Management and Mass Media. Vidyalankar School of Information Technology is a college affiliated to the University of Mumbai and approved by the Government of Maharashtra"
+            ]  
+        },
+        {
+            "tag": "student_support",
+            "patterns": ["What support services are available for students?", "How does the college support students?", "Student resources","student support"
+        ],
+            "responses": ["We prioritize the well-being and success of our students. We offer various support services,including academic counseling,career guidance, mentoring programs, and a dedicated student support center to assist with any challenges or concerns students may have."]
+        },
+        {
+            "tag": "events",
+            "patterns": ["upcoming events","upcoming event","Tell me about college events", "Event", "college event"
+        ],
+            "responses": ["We have several upcoming events such as campus tours, guest lectures, and career fairs. You can check our events on our website www.vsit.edu.in/eventsfinal for more details "
+        ]
+        },
+        {
+            "tag":"admission_criteria",
+            "patterns":["admission criteria","What are the eligibility criteria for admission"
+            ],
+            "responses":["A pass in Class 12 with Mathematics and Statistics with a minimum of 45% to be eligible for admission in vidyalankar college "
+            ]
+        },
+        {
+            "tag": "admissions",
+            "patterns": ["How do I apply?", "What are the admission requirements?", "Admission process"
+        ],
+            "responses": ["To apply, you can visit our website www.vsit.edu.in and fill out the online application form. The admission requirements include submitting your academic transcripts, standardized test scores, and a personal statement. You can find detailed information on our website or contact 2224104244 ."
+        ]
+        },
+        {
+            "tag":"placement",
+            "patterns":["placement companies are","students placed in companies are "
+            ],
+            "responses":["Students placed in top most companies are accenture, capgemini, LTI, TCS, Deloitte, kotak and many more "
+            ]
+        },
+        {
+            "tag":"library_resources",
+            "patterns":["library resources","library","library books"
+            ],
+            "responses":["The college's library is equipped with a vast collection of books, journals, e-books, and online resources students have access"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how you","are you fine?","are you good"
+            ],
+            "responses":["Fine.","Perfect.","Cool.",
+                "Like You.","Are you Fine? I'm Fine."
+            ]
+        },
+        {
+            "tag":"Bye",
+            "patterns":["by","bye","see you?","buy"
+            ],
+            "responses":["You're welcome! If you have any more questions, feel free to ask."
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["What is the time","what's the time","Time","current time","samay"
+            ],
+            "responses":["time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["What is the date","de","what's the Date","Date","current Date","tarikh"
+            ],
+            "responses":["date"
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["What is the day","what's the Day","Day","current Day","din"
+            ],
+            "responses":["day"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["What is ","who is ","wikipedia","give me information","about"
+            ],
+            "responses":["wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search ","google","search"
+            ],
+            "responses":["google"
+            ]
+        }
+        
+    ]
+}
